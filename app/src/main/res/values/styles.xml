@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Application Theme 1 (blue) -->
+    <style name="blueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background_color">#89DCFF</item>
+        <item name="button_color">#009DFF</item>
+        <item name="button_text_color">#060606</item>
+        <item name="text_color">#060606</item>
+        <item name="delete_button_color">#F30606</item>
+        <item name="delete_text_color">#060606</item>
+        <item name="fill_in_background">#89DCFF</item>
+    </style>
+
+    <!-- Application Theme 2 (dark) -->
+    <style name="darkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">#02131F</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background_color">#02131F</item>
+        <item name="button_color">#002AFF</item>
+        <item name="button_text_color">#FFFFFF</item>
+        <item name="text_color">#FFFFFF</item>
+        <item name="delete_button_color">#F30606</item>
+        <item name="delete_text_color">#060606</item>
+        <item name="fill_in_background">#FFFFFF</item>
+    </style>
+
+    <!-- Application Theme 3 (Gustie Light) -->
+    <style name="goldTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/buttonColor3</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background_color">@color/backgroundColor3</item>
+        <item name="button_color">@color/buttonColor3</item>
+        <item name="button_text_color">@color/black</item>
+        <item name="text_color">@color/textColor3</item>
+        <item name="delete_button_color">@color/deleteColor</item>
+        <item name="delete_text_color">@color/black</item>
+        <item name="fill_in_background">@color/buttonColor3</item>
+    </style>
+
+    <!-- Application Theme 4 (Gustie Dark) -->
+    <style name="darkGoldTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/buttonColor3</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background_color">@color/backgroundColor4</item>
+        <item name="button_color">@color/buttonColor4</item>
+        <item name="button_text_color">@color/buttonTextColor4</item>
+        <item name="text_color">@color/textColor4</item>
+        <item name="delete_button_color">@color/deleteColor</item>
+        <item name="delete_text_color">@color/black</item>
+        <item name="fill_in_background">@color/buttonColor4</item>
+    </style>
+
+    <!-- Application Theme 5 (River Falls) -->
+    <style name="redTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/buttonColor5</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background_color">@color/backgroundColor5</item>
+        <item name="button_color">@color/buttonColor5</item>
+        <item name="button_text_color">@color/buttonTextColor5</item>
+        <item name="text_color">@color/textColor5</item>
+        <item name="delete_button_color">@color/deleteColor</item>
+        <item name="delete_text_color">@color/black</item>
+        <item name="fill_in_background">@color/buttonColor5</item>
+    </style>
+
+</resources>

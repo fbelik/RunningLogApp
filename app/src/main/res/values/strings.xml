@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Running Log</string>
+
+    <string-array name="spinnerItems">
+        <item>Last Run</item>
+        <item>Last Week</item>
+        <item>Last 2 Weeks</item>
+        <item>Last Month</item>
+        <item>Last 3 Months</item>
+        <item>Last Year</item>
+        <item>All Time</item>
+    </string-array>
+</resources>

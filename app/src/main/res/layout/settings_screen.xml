@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Distance Units:"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/unitsRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/milesRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Miles"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/kmRatio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kilometers"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:text="First Day of Week:"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/firstDayRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/sundayRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunday"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/mondayRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Monday"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Color Scheme:"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/colorSchemeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/color1Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Standard Blue"
+                android:checked="true"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/color2Radio"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Dark"-->
+<!--                android:textColor="?attr/text_color"-->
+<!--                android:textSize="18sp" />-->
+
+            <RadioButton
+                android:id="@+id/color3Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gold"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/color4Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dark Gold"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/color5Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="?attr/text_color"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/button_shape"
+            android:text="Back"
+            android:textColor="?attr/button_text_color" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="?attr/delete_button_color"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:text="Clear all Data"
+            android:textColor="?attr/delete_text_color" />
+    </LinearLayout>
+
+</LinearLayout>
