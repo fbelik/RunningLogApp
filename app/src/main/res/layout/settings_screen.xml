@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
-            android:text="Distance Units:"
+            android:text="@string/units_header"
             android:textColor="?attr/text_color"
             android:textSize="24sp" />
 
@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="Miles"
+                android:text="@string/miles"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
 
@@ -43,7 +43,7 @@
                 android:id="@+id/kmRatio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kilometers"
+                android:text="@string/kilometers"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
         </RadioGroup>
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginTop="30dp"
-            android:text="First Day of Week:"
+            android:text="@string/day_header"
             android:textColor="?attr/text_color"
             android:textSize="24sp" />
 
@@ -69,7 +69,7 @@
                 android:id="@+id/sundayRadio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sunday"
+                android:text="@string/sunday"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
 
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="Monday"
+                android:text="@string/monday"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
         </RadioGroup>
@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginTop="30dp"
-            android:text="Color Scheme:"
+            android:text="@string/color_header"
             android:textColor="?attr/text_color"
             android:textSize="24sp" />
 
@@ -104,7 +104,7 @@
                 android:id="@+id/color1Radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Standard Blue"
+                android:text="@string/blue"
                 android:checked="true"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
@@ -121,7 +121,7 @@
                 android:id="@+id/color3Radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Gold"
+                android:text="@string/gold"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
 
@@ -129,7 +129,7 @@
                 android:id="@+id/color4Radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dark Gold"
+                android:text="@string/dark_gold"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
 
@@ -137,7 +137,7 @@
                 android:id="@+id/color5Radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Red"
+                android:text="@string/red"
                 android:textColor="?attr/text_color"
                 android:textSize="18sp" />
 
@@ -157,7 +157,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="60dp"
             android:background="@drawable/button_shape"
-            android:text="Back"
+            android:text="@string/back_btn"
             android:textColor="?attr/button_text_color" />
 
         <Button
@@ -170,7 +170,7 @@
             android:backgroundTint="?attr/delete_button_color"
             android:paddingLeft="5dp"
             android:paddingEnd="5dp"
-            android:text="Clear all Data"
+            android:text="@string/clear_btn"
             android:textColor="?attr/delete_text_color" />
     </LinearLayout>
 

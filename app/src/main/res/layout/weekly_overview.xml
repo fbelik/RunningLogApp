@@ -16,7 +16,7 @@
         android:layout_marginBottom="50dp"
         android:background="@drawable/button_shape"
         android:backgroundTint="?attr/button_color"
-        android:text="Back"
+        android:text="@string/back_btn"
         android:textColor="?attr/button_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

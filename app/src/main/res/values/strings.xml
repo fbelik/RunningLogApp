@@ -1,6 +1,59 @@
 <resources>
     <string name="app_name">Running Log</string>
 
+<!--    Main Screen-->
+    <string name="main_title">My Running Log</string>
+    <string name="display_main">Display Run Data for:</string>
+    <string name="enter_run_btn">Enter Run</string>
+    <string name="view_run_btn">View Run</string>
+    <string name="weekly_btn">Weekly Overview</string>
+    <string name="monthly_btn">Monthly Overview</string>
+    <string name="settings_btn">Settings</string>
+    <string name="strava_btn">Sync with Strava</string>
+
+<!--    Settings Screen-->
+    <string name="units_header">Distance Units:</string>
+    <string name="day_header">First Day of Week:</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="color_header">Color Scheme:</string>
+    <string name="blue">Blue</string>
+    <string name="gold">Gold</string>
+    <string name="dark_gold">Dark Gold</string>
+    <string name="red">Red</string>
+
+    <string name="clear_btn">Clear All Data</string>
+    <string name="back_btn">Back</string>
+
+<!--    Edit and Add Runs-->
+    <string name="edit_run_header">Edit Run Data Below:</string>
+    <string name="add_run_header">Insert Run Data Below:</string>
+    <string name="title_hint">Title (optional)</string>
+    <string name="distance_hint">Distance</string>
+    <string name="hours_hint">Hours</string>
+    <string name="minutes_hint">Mins</string>
+    <string name="seconds_hint">Secs</string>
+    <string name="month_hint">Month</string>
+    <string name="day_hint">Day</string>
+    <string name="year_hint">Year</string>
+    <string name="description_hint">Description (optional)</string>
+    <string name="submit_btn">Submit</string>
+    <string name="miles">Miles</string>
+    <string name="kilometers">Kilometers</string>
+
+<!--    View Runs-->
+    <string name="view_header">Run Data:</string>
+    <string name="delete_btn">Delete Run</string>
+    <string name="edit_run_btn">Edit Run</string>
+    <string name="back_run_btn">Back to Runs</string>
+    <string name="default_num_runs">Total of 0 runs</string>
+
+<!--    Strava Strings-->
+    <string name="waiting_for_strava">Please wait, syncing with Strava...</string>
+
+    <string name="colon">:</string>
+    <string name="dash">/</string>
+
     <string-array name="spinnerItems">
         <item>Last Run</item>
         <item>Last Week</item>

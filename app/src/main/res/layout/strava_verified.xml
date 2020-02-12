@@ -9,7 +9,7 @@
         android:id="@+id/waiting"
         android:layout_width="match_parent"
         android:layout_height="147dp"
-        android:text="Please wait, syncing with Strava..."
+        android:text="@string/waiting_for_strava"
         android:textAlignment="center"
         android:textColor="?attr/text_color"
         android:textSize="24sp" />
